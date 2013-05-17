@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f0d8;
+  color: #603010;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+a {
+  color: #006000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #006000;
+  background-color: #a0d080;
+  text-decoration: underline;
+}

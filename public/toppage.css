@@ -1,0 +1,38 @@
+h1#site_name {
+}
+p#declaration {
+  font-size: 120%;
+  font-weight: bold;
+  color: #c02010
+}
+h2.content_title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+h3.content_title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+/* left contents (iddy) */
+div#left_contents {
+  width: 400px;
+  float: left;
+  word-break: break-all;
+}
+/* center contents (Twitter) */
+div#center_contents {
+  margin-left: 420px; /* left_contents::width + 20 */
+}
+div#center_contents div.twitter {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+div#center_contents div.twitter a {
+  color: #006000;
+  text-decoration: underline;
+}
+div.twitter a:hover {
+  color: #006000;
+  background-color: #a0d080;
+  text-decoration: underline;
+}
